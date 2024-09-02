@@ -2,6 +2,7 @@
 import About from '@/components/About';
 import Explore from '@/components/Explore';
 import Hero from '@/components/Hero';
+import Menu from '@/components/Menu';
 import React from 'react'
 import { useEffect } from 'react';
 
@@ -20,6 +21,7 @@ const Home = () => {
       <Hero />
       <Explore />
       <About />
+      <Menu />
       <div className='h-[4000px]'></div>
     </div>
   );
